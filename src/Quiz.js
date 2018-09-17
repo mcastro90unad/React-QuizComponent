@@ -5,7 +5,7 @@ let quiz_data = require ('./quiz_data.json')
 class Quiz extends Component{
     constructor(props){
         super(props)
-        this.state = { QuizQuestion: 1}
+        this.state = { QuizQuestion: 0}
     }
     render(){
         return (
